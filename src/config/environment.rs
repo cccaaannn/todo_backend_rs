@@ -7,6 +7,9 @@ use std::env::VarError;
 pub struct Environment {
     pub port: String,
     pub database_url: String,
+    pub log_level: String,
+    pub secret_key: String,
+    pub exp_duration: i64,
 }
 
 pub trait EnvironmentTrait {
