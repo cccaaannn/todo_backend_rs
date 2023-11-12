@@ -4,7 +4,6 @@ use serde::{Deserialize, Serialize};
 pub struct TodoAdd {
     pub title: String,
     pub content: String,
-    pub completed: bool,
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone)]

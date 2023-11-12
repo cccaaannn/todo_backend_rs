@@ -48,7 +48,7 @@ impl TodoRepositoryTrait for TodoRepository {
             id,
             new_todo.title,
             new_todo.content,
-            new_todo.completed
+            false
         )
         .execute(self.db_context.get_pool())
         .await;
