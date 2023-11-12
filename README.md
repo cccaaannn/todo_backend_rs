@@ -1,6 +1,6 @@
 # todo_backend_rs
 
-todo_backend_rs or wasico is a client side image converter that uses [ffmpeg](https://www.ffmpeg.org) to convert images on the browser.
+Simple todo backend with rust.
 
 ![GitHub top language](https://img.shields.io/github/languages/top/cccaaannn/todo_backend_rs?color=blue) ![GitHub repo size](https://img.shields.io/github/repo-size/cccaaannn/todo_backend_rs?color=orange) [![GitHub](https://img.shields.io/github/license/cccaaannn/todo_backend_rs?color=green)](https://github.com/cccaaannn/todo_backend_rs/blob/master/LICENSE)
 
